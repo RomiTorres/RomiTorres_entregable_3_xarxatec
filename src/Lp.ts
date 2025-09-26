@@ -2,8 +2,8 @@ import { Disco } from "./Disco.js";
 import { IDiscoGiratorio } from "./IDiscoGiratorio.js";
 
 export class Lp extends Disco implements IDiscoGiratorio {
-  constructor(nuevoNombre: string, capacidad: number, tipo: string) {
-    super(nuevoNombre, capacidad, tipo);
+  constructor(nuevoNombre: string, capacidad: number, tipo: string, contenido:string) {
+    super(nuevoNombre, capacidad, tipo, contenido);
   }
 
   girarDisco(): void {

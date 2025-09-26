@@ -4,10 +4,11 @@ export class Disco {
   #contenido: string;
   #tipo: string;
 
-  constructor(nuevoNombre: string, capacidad: number, tipo: string) {
+  constructor(nuevoNombre: string, capacidad: number, tipo: string, contenido:string) {
     this.#nombre = nuevoNombre;
     this.#capacidad = capacidad;
     this.#tipo = tipo;
+    this.#contenido = contenido;
   }
 
   get nombre(): string {
